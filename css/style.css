@@ -1,0 +1,104 @@
+/*etiqueta normal = nada 
+etiqueta universal = *
+etiqueta id = #
+etiqueta class= .
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(186, 236, 186);
+}
+
+#container{
+    width: 800px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px gray;
+    border: 1px solid black;
+    background: rgb(210, 186, 233);
+}
+
+#Header{
+    height: 145px;
+    background-color: aliceblue;
+}
+
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+#logo img{
+    float: left;
+    height: 100px;
+}
+
+#menu {
+    clear: both;
+    background: #222;
+    color: white;
+    height: 55px;
+    border-bottom: 4px solid #018101;
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li{
+    line-height: 55px;
+    float: left;
+    border-right: 1px solid #363636;
+}
+
+#menu a{
+    display: block;
+    color: rgb(233, 179, 179);
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: all 300ms;
+}
+
+#menu a:hover{
+    background: #01b1ea;
+}
+
+/*content*/ 
+
+#content{
+    width: 20%;
+    min-height: 650px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgb(236, 187, 187);
+}
+
+#lateral .block_aside{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    border: 1px solid rgb(114, 114, 233);
+}
+
+#lateral h3 {
+    display: block; 
+    color: #222;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(197, 197, 236);
+    border: 2px solid rgb(231, 173, 173);
+}

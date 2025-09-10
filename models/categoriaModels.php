@@ -19,12 +19,11 @@ class Categoria {
         return $this->nombre;
     }
 
-    function setID(){
+    function setID($id){
         $this->id = $id;
     }
 
-    function setNOMBRE(){
+    function setNOMBRE($nombre){
         $this->nombre = $nombre;
     }
-
 }
